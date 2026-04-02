@@ -8,6 +8,8 @@ function check(a, b) {
     var x = 10
     var x = 20
 
+    while(true) {}  
+
     return x
 }
 
