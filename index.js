@@ -1,15 +1,9 @@
 function check(a, b) {
-    if (a == b) {
+    if (a === b) {
         console.log("Equal")
     }
 
-    eval("console.log('This is unsafe')")
-
-    var x = 10
-    var x = 20
-
-    while(true) {}  
-
+    let x = 20
     return x
 }
 
