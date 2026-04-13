@@ -1,9 +1,16 @@
 function check(a, b) {
-    if (a === b) {
+    if (a == b) {
         console.log("Equal")
     }
 
-    let x = 20
+    eval("console.log('unsafe')")
+
+    var x = 20
+    var x = 30
+
+    if (true) {
+    }
+
     return x
 }
 
