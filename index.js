@@ -1,15 +1,11 @@
 function check(a, b) {
-    if (a == b) {
+    if (a === b) {
         console.log("Equal")
+    } else {
+        console.log("Not Equal")
     }
 
-    eval("console.log('unsafe')")
-
-    var x = 20
-    var x = 30
-
-    if (true) {
-    }
+    let x = 30
 
     return x
 }
