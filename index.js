@@ -1,9 +1,12 @@
 function check(a, b) {
     if (a === b) {
         console.log("Equal")
+    } else {
+        console.log("Not Equal")
     }
 
-    let x = 20
+    let x = 30
+
     return x
 }
 
